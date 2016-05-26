@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS Styling -->
+    <link href="css/styles.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="letter-form">
+
+
+        <h1>Survey of you</h1>
+          <div id="blanks">
+            <form>
+              <div class="form-group">
+                <label for="name">Your name</label>
+                <input id="name" class="form-control" type="text">
+              </div>
+              <div class="form-group">
+                <label for="color">What's your favorite color?</label>
+                <input id="color" class="form-control" type="color">
+              </div>
+              <div class="form-group">
+                <label for="born">Date of birth:</label>
+                <input id="born" class="form-control" type="date">
+              </div>
+              <h5>What's your favorite genre of music?</h5>
+              <select class="form-control" id="fav-music">
+                <option value="1">Rock</option>
+                <option value="2">Indie/Alternative</option>
+                <option value="3">New Age</option>
+                <option value="4">Korean Pop</option>
+              </select>
+              <div class="radio">
+              <h1>What's Your Favorite Restaurant in Portland?</h1>
+              <label>
+                <input type="radio" name="restaurant" value="le-pigeon" checked>
+                Le Pigeon
+              </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="restaurant" value="red-lobster">
+                  Red Lobster
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="restaurant" value="chik-fil-a">
+                  Chik-fil-a
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-danger">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div id="answers">
+          <ul>
+            <li>Name: <span class="name1"></span></li>
+            <li>Color:</li>
+            <li>Date of Birth:</li>
+            <li>Music Genre:</li>
+            <li>Fav Restaurant:</li>
+          </ul>
+        </div>
+
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.2.4.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+
+  </body>
+</html>
